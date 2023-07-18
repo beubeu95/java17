@@ -1,0 +1,68 @@
+-------- 자바 라이브러리(jar) 만들기 ---------
+
+1. 현재 프로젝트의 out 디렉토리 선택
+
+2. 파일(File) 메뉴 → 프로젝트 구조(Project Structure)
+
+3. 모듈(Artifacts) → [+] Add -> [JAR] -> [From Modules with dependencies...]
+
+4. [Create JAR from Modules] 창에서
+
+Module : ch05
+
+Main class : sec2.Example1
+
+JAR files from libraries : extract to the target JAR 선택
+
+Directory for META-INF/MINIFEST.MF : C:\Users\user\IdeaProjects\ch05\src
+
+해당 옵션 입력 후 [OK] 클릭
+
+5. [Product Structure] 창 에서 Name, Type, OutputDirectory 등 을 확인하고,
+원하는 내용으로 변경
+	Name : ch05.jar
+	Type : JAR
+	Output Directory : D:\kim\java
+
+해당 사항 입력 후 [OK] 클릭
+
+
+6. [Build] 메뉴 -> [Build Artifacts...] -> ch05.jar -> [Build] 선택
+
+
+
+
+---------- 자바 라이브러리(jar) 가져하기 --------------
+
+1. [File] -> 프로젝트 구조(Project Structure)
+
+2. [Modules] -> [+] Add -> import Module
+
+3. [Project Structure] 창에서 [Dependencies] 탭 선택
+-> [+] Add -> [JARs or directories...]
+해당 jar가 있는 디렉토리와 파일을 선택
+
+4. [Project] 패널 -> [External Libraries] 폴더를 펼쳐서 확인
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+자바 프로젝트 클릭 → 종속 요소(Dependencies) → + 버튼 클릭 → JARs or directories.
+
+추가할 JAR 라이브러리를 디스크에서 선택
