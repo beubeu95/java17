@@ -24,9 +24,9 @@ public class Example3 {
         Scanner sc = new Scanner(System.in);
         System.out.println("학번 입력 : ");
         int studentID = sc.nextInt();
-        int js1 = 100, js2 = 100, js3 = 100
+        int js1 = 100, js2 = 100, js3 = 100;
 
-        float avg = (js1 + js2 + js3) / 3.0f
+        float avg = (js1 + js2 + js3) / 3.0f;
         if(avg>=96){System.out.println("A+");}
         else if (avg>=93){System.out.println("A0");}
         else if (avg>=90){System.out.println("A-");}
@@ -39,7 +39,7 @@ public class Example3 {
         else if (avg>=66){System.out.println("D+");}
         else if (avg>=63){System.out.println("D0");}
         else if (avg>=60){System.out.println("D-");}
-        else (avg<60){System.out.println("F");}
+        //else (avg<60){System.out.println("F");}
 
         if (avg>=80 && js1>=70 && js2>=70 && js3>=70) {
             System.out.println("합격");
@@ -66,7 +66,7 @@ public class Example3 {
                 grade = "1등급";
                 break;
         }
-        System.out.printf("학번 : , 전산 : , PG: , OA : , 총점 : , 평균 : , 학점 : , 판정 :, 등급 : ",
-                studentID, ,);
+        //System.out.printf("학번 : , 전산 : , PG: , OA : , 총점 : , 평균 : , 학점 : , 판정 :, 등급 : ",
+                //studentID, ,);
     }
 }

@@ -3,8 +3,8 @@ package sec2;
 public class Example2 {
     public static void main(String[] args) {
         /*
-        int 카운트변수 = 0;
-        while(조건식) {
+        int 카운트 = 0;
+        while(조건식){
             증감식;
             반복실행할 문장;
         }
@@ -12,11 +12,12 @@ public class Example2 {
 
         int i = 0;
         int tot = 0;
-        while(i<=100){
+        while(i<=100) {
             i++;
-            tot+=i;
+            tot += i;
         }
         System.out.println("tot = "+tot);
+
 
         i = 0;
         tot = 0;
@@ -27,5 +28,6 @@ public class Example2 {
             if(i>=100) break;
         }
         System.out.println("tot2 = "+tot);
+
     }
 }

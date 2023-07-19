@@ -8,7 +8,6 @@ public class Example4 {
         int b = 14; // 001110 -> 01110
 
         //비트연산 = 2진수
-        java.lang.Object System;
         System.out.println("a & b : "+(a&b)); //00100  -> 4 (둘다 1일때 -> 1)
         System.out.println("a | b : "+(a|b)); //11110  -> 30 (둘중 하나 1일 때 -> 1)
         System.out.println("~a : "+(~a));     //보수 -> 반대방향 값 : -21
