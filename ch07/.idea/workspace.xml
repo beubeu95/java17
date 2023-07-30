@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b848043f-cbcb-49c7-9ecb-c6d15a02b8d6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../ch06/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch06/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sec1/Example1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch03/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch03/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ch13/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ch13/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +16,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2SjRt7FkoCkvDPFqXFglGrK0R7x" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -26,8 +29,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/hk/java/ch06.jar",
+    "last_opened_file_path": "C:/hkdev/java/ch07",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -49,6 +53,7 @@
       <updated>1689658217421</updated>
       <workItem from="1689658218425" duration="295000" />
       <workItem from="1689658533665" duration="753000" />
+      <workItem from="1690545868543" duration="66000" />
     </task>
     <servers />
   </component>

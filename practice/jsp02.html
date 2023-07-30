@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자바스크립트 기본01 - 변수의 선언과 사용</title>
+</head>
+<body>
+    <div id="result"></div>
+    <ul class="lst">
+        <li class="item1"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+        <li class="item4"></li>
+    </ul>
+    <hr>
+    <nav>
+        <a href="">메뉴1</a>
+        <a href="">메뉴2</a>
+        <a href="">메뉴3</a>
+    </nav>
+    <hr>
+    <ul class="lst">
+        <li class="item1"></li>
+        <li class="item2"></li>
+        <li class="item3"></li>
+        <li class="item4"></li>
+    </ul>
+    <div id="res2"></div>
+    <button type ="button" onclick="fnc3()" id="btn1">인라인 이벤트 발생</button>
+    <button type ="button" id="btn2">DOM 탐색 이벤트 발생</button>
+
+    <script>
+        var data1 = "김현경";
+        let data2 = "김진영";
+        const data3 = "이옥순";
+        console.log(data1);
+
+        // 재선언 및 값초기화 
+        var data1 = 1004;
+        data2 = 7979;
+
+        // 함수 정의 문법
+        function fnc1(){ document.write("출력");}
+        var fnc2 = function() { alert("알림");}
+
+        //간단한 객체 정의 문법
+        var obj = {
+            name : "김현경", age : 29, height : 155.0, 
+            method1:function(num1){
+                document.getElementById("res2").innerHTML = "<h2>김현경천재</h2>";
+            }
+        };
+
+        document.getElementById("res2").innerText = obj.name + obj.age + obj.height;
+        
+        obj.method1();
+
+        function fnc3(){
+            var result = document.getElementById("result");
+            var el = document.getElementsByClassName("lst");
+            var a = document.getElementsByTagName("a");
+            var res2 = document.querySelector("#result");
+            var item = document.querySelectorAll(".lst li");
+
+            result.innerText = data2;
+            for(var i=0;i<item.length;i++){
+                item[i].innerHTML = "<strong>"+data3+"</strong>";
+            }
+        }
+
+        var btn2 = document.getElementById("btn2");
+        btn2.addEventListener("click",function(){
+            fnc3();
+        });
+        
+    </script>
+</body>
+</html>
